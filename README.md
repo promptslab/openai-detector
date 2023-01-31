@@ -1,6 +1,6 @@
-<h2 align="center">Openai Detector</h2> -->
+<h2 align="center">Openai Detector</h2>
 <p align="center">
-  <p align="center">AI classifier for indicating AI-written text
+  <p align="center">Open AI classifier for indicating AI-written text
 </p>
 
 ## Usage
@@ -32,3 +32,8 @@ od.detect(sentence)
 - Add all classes labels (total 5 classes from openai)
 - add verifier to check if the sentence is 1000 characters long
 - automatically detect token from user_name, password
+
+
+## Web Version
+
+https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text/
