@@ -24,7 +24,12 @@ od.detect(sentence)
 
 ```
 
-
+## Community 
+<div align="center">
+If you are interested in Prompt-Engineering, LLMs, ChatGPT and other latest research discussions, please consider joining <a href="https://discord.gg/m88xfYMbK6">PromptsLab</a></div>
+<div align="center">
+<img alt="Join us on Discord" src="https://img.shields.io/discord/1069129502472556587?color=5865F2&logo=discord&logoColor=white">
+</div>
 
 ## TO-DO
 
