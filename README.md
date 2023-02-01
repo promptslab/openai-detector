@@ -31,8 +31,8 @@ sentence     = """All children, except one, grow up. They soon know that they wi
 bearer_token = 'Bearer sess-abcd1234..'
 
 od = OpenaiDetector(bearer_token)
-od.detect(sentence)
-                          
+response = od.detect(sentence)
+print(response)                          
                           
 ### Output
 
