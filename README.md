@@ -3,6 +3,22 @@
   <p align="center">Open AI classifier for indicating AI-written text
 </p>
 
+
+ <h4 align="center">
+  <a href="https://github.com/promptslab/openai-detector/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="openai-detector is released under the Apache 2.0 license." />
+  </a>
+  <a href="http://makeapullrequest.com">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="http://makeapullrequest.com" />
+  </a>
+  <a href="https://discord.gg/m88xfYMbK6">
+    <img src="https://img.shields.io/badge/Discord-Community-orange" alt="Community" />
+  </a>
+  <a href="https://colab.research.google.com/drive/1f4YG9stX9aHmsmh6ZhzjekJU4X4BIynO?usp=sharing">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="colab" />
+  </a>
+</h4>
+
 ## Usage
 
 
@@ -26,7 +42,9 @@ od.detect(sentence)
 ```
 
 ## Run on colab
-https://colab.research.google.com/drive/1f4YG9stX9aHmsmh6ZhzjekJU4X4BIynO?usp=sharing
+  <a href="https://colab.research.google.com/drive/1f4YG9stX9aHmsmh6ZhzjekJU4X4BIynO?usp=sharing">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="colab" />
+  </a>
 
 ## Community 
 <div align="center">
