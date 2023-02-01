@@ -25,6 +25,9 @@ od.detect(sentence)
 
 ```
 
+## Run on colab
+https://colab.research.google.com/drive/1f4YG9stX9aHmsmh6ZhzjekJU4X4BIynO?usp=sharing
+
 ## Community 
 <div align="center">
 If you are interested in Prompt-Engineering, LLMs, ChatGPT and other latest research discussions, please consider joining <a href="https://discord.gg/m88xfYMbK6">PromptsLab</a></div>
@@ -37,6 +40,15 @@ If you are interested in Prompt-Engineering, LLMs, ChatGPT and other latest rese
 - Add all classes labels (total 5 classes from openai)
 - add verifier to check if the sentence is 1000 characters long
 - automatically detect token from user_name, password
+
+## Steps to get Bearer token from chrome
+
+
+- Go to https://platform.openai.com/ai-text-classifier
+- Hit F12 to access the Developer tools
+- Select the Network Tab
+- Select nearly any POST Operation (paste text into detection box and click on submit)
+- Find your current Bearer token in the Request Headers
 
 
 ## Web Version
