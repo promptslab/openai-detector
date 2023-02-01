@@ -20,7 +20,8 @@ od.detect(sentence)
                           
 ### Output
 
-{'unlikely': 96.15870427207666}
+{"output"          : "The classifier considers the text to be very unlikely AI-generated.",
+"Confidence score" : 96.15870427207666}
 
 ```
 
