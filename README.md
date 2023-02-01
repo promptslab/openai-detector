@@ -50,6 +50,12 @@ If you are interested in Prompt-Engineering, LLMs, ChatGPT and other latest rese
 - Select nearly any POST Operation (paste text into detection box and click on submit)
 - Find your current Bearer token in the Request Headers
 
+Here is an example
+
+<div align="center">
+<img width="110px" src="https://raw.githubusercontent.com/promptslab/openai-detector/main/extra/bearer_token.gif">
+</div>
+
 
 ## Web Version
 
