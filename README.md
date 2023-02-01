@@ -53,7 +53,7 @@ If you are interested in Prompt-Engineering, LLMs, ChatGPT and other latest rese
 Here is an example
 
 <div align="center">
-<img width="110px" src="https://raw.githubusercontent.com/promptslab/openai-detector/main/extra/bearer_token.gif">
+<img width="600px" src="https://raw.githubusercontent.com/promptslab/openai-detector/main/extra/bearer_token.gif">
 </div>
 
 
