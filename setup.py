@@ -37,5 +37,5 @@ setup(
     author="monk1337",
     maintainer="All our contributors",
     packages=find_packages(),
-    install_requires=read_requirements("requirements.txt"),
+    install_requires=["requests","numpy"],
     python_requires=">=3.7.0",)
