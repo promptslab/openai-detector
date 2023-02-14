@@ -53,12 +53,6 @@ If you are interested in Prompt-Engineering, LLMs, ChatGPT and other latest rese
 <a href="https://discord.gg/m88xfYMbK6">
 <img alt="Join us on Discord" src="https://img.shields.io/discord/1069129502472556587?color=5865F2&logo=discord&logoColor=white"></a>
 
-## TO-DO
-
-- Add all classes labels (total 5 classes from openai) ✅
-- add verifier to check if the sentence is 1000 characters long
-- automatically detect token from user_name, password
-
 ## Steps to get Bearer token from chrome
 
 
@@ -73,6 +67,13 @@ Here is an example
 <div align="center">
 <img width="600px" src="https://raw.githubusercontent.com/promptslab/openai-detector/main/extra/bearer_token.gif">
 </div>
+
+
+## TO-DO
+
+- Add all classes labels (total 5 classes from openai) ✅
+- add verifier to check if the sentence is 1000 characters long
+- automatically detect token from user_name, password
 
 
 ## Web Version
