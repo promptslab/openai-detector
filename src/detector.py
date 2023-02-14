@@ -1,6 +1,7 @@
 import requests
 import numpy as np
 
+
 class OpenaiDetector:
 
     def __init__(self, token):
@@ -21,7 +22,9 @@ class OpenaiDetector:
             'sec-ch-ua-mobile': '?0',
             'sec-ch-ua-platform': '"macOS"',
         }
-        self.classes = {'!': 'unlikely', '"': "possibly"}
+
+        self.possible_classes = ['very unlikely', 'unlikely', 'unclear if it is', 'possibly', 'likely']
+        self.class_max = [10, 45, 90, 98, 99]
 
     def detect(self, text, all_probs=False):
         data = {
@@ -41,7 +44,15 @@ class OpenaiDetector:
             choices = response.json()['choices'][0]
             logprobs = choices['logprobs']['top_logprobs'][0]
             probs = {key: 100 * np.e ** value for key, value in logprobs.items()}
-            top_prob = {self.classes[choices['text']]: 100 * np.e ** choices['logprobs']['token_logprobs'][0]}
+            key_prob = probs['"']
+            if self.class_max[0] < key_prob < self.class_max[len(self.class_max) - 1]:
+                val = max(i for i in self.class_max if i < key_prob)
+                class_label = self.possible_classes[self.class_max.index(val)]
+            elif self.class_max[0] > key_prob:
+                class_label = self.possible_classes[0]
+            else:
+                class_label = self.possible_classes[len(self.possible_classes) - 1]
+            top_prob = {'Class': class_label, 'AI-Generated Probability': key_prob}
             if all_probs:
                 return probs, top_prob
             return top_prob
