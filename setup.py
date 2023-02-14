@@ -28,7 +28,7 @@ def read_requirements(path):
 
 setup(
     name="openai-detector",
-    version=0.1.1,
+    version="0.1.1",
     description="Open AI classifier for indicating AI-written text",
     url="https://github.com/promptslab/openai-detector",
     long_description=read("README.md"),
