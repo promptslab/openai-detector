@@ -19,6 +19,13 @@
   </a>
 </h4>
 
+## Installation
+
+```bash
+pip3 install git+https://github.com/promptslab/openai-detector.git
+```
+
+
 ## Usage
 
 
