@@ -22,12 +22,7 @@ class OpenaiDetector:
             'sec-ch-ua-mobile': '?0',
             'sec-ch-ua-platform': '"macOS"',
         }
-        self.classes = {'!': 'unlikely', '"': "possibly"}
 
-        # xr = [{max_score: 10, assessment: "very unlikely"}, {max_score: 45, assessment: "unlikely"},
-        #       {max_score: 90, assessment: "unclear if it is"}, {max_score: 98, assessment: "possibly"},
-        #       {max_score: 99, assessment: "likely"}];
-        #
         self.possible_classes = ['very unlikely', 'unlikely', 'unclear if it is', 'possibly', 'likely']
         self.class_max = [10, 45, 90, 98, 99]
 
