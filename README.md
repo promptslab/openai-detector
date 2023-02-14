@@ -21,6 +21,13 @@
 
 ## Installation
 
+
+```bash
+pip3 install openai_detector
+```
+
+or
+
 ```bash
 pip3 install git+https://github.com/promptslab/openai-detector.git
 ```
