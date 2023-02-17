@@ -85,7 +85,7 @@ Here is an example
 ## TO-DO
 
 - Add all classes labels (total 5 classes from openai) ✅
-- add verifier to check if the sentence is 1000 characters long
+- add verifier to check if the sentence is 1000 characters long ✅
 - automatically detect token from user_name, password
 
 
