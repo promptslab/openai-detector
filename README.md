@@ -50,8 +50,7 @@ print(response)
                           
 ### Output
 
-{"output"          : "The classifier considers the text to be very unlikely AI-generated.",
-"Confidence score" : 96.15870427207666}
+{'Class': 'very unlikely', 'AI-Generated Probability': 3.4583769381404563}
 
 ```
 
@@ -86,7 +85,7 @@ Here is an example
 ## TO-DO
 
 - Add all classes labels (total 5 classes from openai) ✅
-- add verifier to check if the sentence is 1000 characters long
+- add verifier to check if the sentence is 1000 characters long ✅
 - automatically detect token from user_name, password
 
 

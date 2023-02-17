@@ -27,6 +27,8 @@ class OpenaiDetector:
         self.class_max = [10, 45, 90, 98, 99]
 
     def detect(self, text, all_probs=False):
+        if len(text) < 1000:
+            return "Check prompt, Length of sentence it should be more than 1,000 characters"
         data = {
             'prompt': text + "».\n<|disc_score|>",
             'max_tokens': 1,
@@ -56,4 +58,5 @@ class OpenaiDetector:
             if all_probs:
                 return probs, top_prob
             return top_prob
-        return "Check prompt, Length of sentence it should be more than 1,000 characters"
+        elif response.status_code != 200:
+            return "Web request was not successful. Please check your bearer token and try again."
